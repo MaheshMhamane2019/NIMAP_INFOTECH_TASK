@@ -1,0 +1,22 @@
+﻿<!-------Delete Event confirmation modal-------->
+<div class="modal" id="delete-modal" role="dialog">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" style="font-weight: bold;" id="modaltitle">Delete confirmation</h4>
+                <div>
+                    <button type="button" class="close ml-auto" data-dismiss="modal">&times;</button>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="alert alert-danger text-center-align">
+                    <span class="glyphicon glyphicon-alert confirmation"></span> Are you sure you want to delete?.
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="deleteElement()">Delete </button>
+                <button type="button" data-dismiss="modal"  class=" btn btn-default ml-3">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
